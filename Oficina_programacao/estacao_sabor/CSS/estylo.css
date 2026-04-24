@@ -1,0 +1,227 @@
+    /* ===== RESET & BASE ===== */
+  *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+    --orange:      #F07800;
+    --orange-dark: #D96500;
+    --dark:        #1A1200;
+    --text:        #2E2000;
+    --muted:       #8A7A6A;
+    --bg:          #F5F5F5;
+    --white:       #FFFFFF;
+    --border:      #E0D8CE;
+    --input-bg:    #FAFAFA;
+    --shadow:      0 8px 40px rgba(0, 0, 0, 0.08);
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+
+  /* ===== NAVBAR ===== */
+ nav{
+
+    background-color: orange;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    padding: 15px;
+}
+
+nav a:hover{
+     color: rgb(255, 255, 255);
+     transition: 0.3s;
+}
+
+nav ul{
+    display: flex;
+    justify-content: right;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon {
+    width: 80px;
+}
+
+
+  /* ===== PAGE WRAPPER ===== */
+  .page {
+    min-height: calc(100vh - 68px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 24px;
+
+    /* Decoração laranja ao fundo (canto direito) */
+    background:
+      radial-gradient(ellipse 340px 280px at 92% 80%, rgba(240,120,0,0.10) 0%, transparent 70%),
+      var(--bg);
+  }
+
+  /* ===== CARD DO FORMULÁRIO ===== */
+  .card {
+    width: 100%;
+    max-width: 580px;
+    background: var(--white);
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    padding: 48px 52px 44px;
+    animation: fadeUp 0.5s ease both;
+  }
+
+  .card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 8px;
+  }
+
+  .card-subtitle {
+    font-size: 15px;
+    color: var(--muted);
+    margin-bottom: 36px;
+  }
+
+  /* ===== CAMPOS ===== */
+  .field {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+
+  .field label {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  /* Wrapper para input + ícone (senha) */
+  .input-wrap {
+    position: relative;
+  }
+
+  .field input {
+    width: 100%;
+    height: 52px;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    background: var(--input-bg);
+    padding: 0 16px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    color: var(--text);
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+
+  .field input::placeholder {
+    color: #C0B8AE;
+  }
+
+  .field input:focus {
+    border-color: var(--orange);
+    box-shadow: 0 0 0 3px rgba(240, 120, 0, 0.12);
+  }
+
+  /* Ícone do olho na senha */
+  .eye-icon {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #C0B8AE;
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+  }
+
+  .eye-icon svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Padding extra no input de senha para não sobrepor o ícone */
+  .input-wrap input {
+    padding-right: 44px;
+  }
+
+  /* ===== BOTÃO CADASTRAR ===== */
+  .btn-cadastrar {
+    display: block;
+    width: 100%;
+    height: 56px;
+    margin-top: 32px;
+    background: var(--orange);
+    color: var(--white);
+    border: none;
+    border-radius: 12px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 0.3px;
+    transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+    box-shadow: 0 4px 18px rgba(240, 120, 0, 0.28);
+  }
+
+  .btn-cadastrar:hover {
+    background: var(--orange-dark);
+    transform: translateY(-1px);
+    box-shadow: 0 8px 28px rgba(240, 120, 0, 0.36);
+  }
+
+  .btn-cadastrar:active {
+    transform: scale(0.98);
+  }
+
+  /* ===== LINK ENTRAR ===== */
+  .login-hint {
+    text-align: center;
+    margin-top: 28px;
+    font-size: 15px;
+    color: var(--muted);
+  }
+
+  .login-hint a {
+    color: var(--orange);
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .login-hint a:hover {
+    color: var(--orange-dark);
+    text-decoration: underline;
+  }
+
+  /* ===== ANIMAÇÃO ===== */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }

@@ -1,0 +1,340 @@
+  /* ===== RESET & BASE ===== */
+  *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+    --orange:      #F07800;
+    --orange-dark: #D96500;
+    --dark:        #1A1200;
+    --text:        #2E2000;
+    --muted:       #8A7A6A;
+    --bg:          #FFFDF8;
+    --white:       #FFFFFF;
+    --border:      #EDE8DF;
+    --shadow:      0 4px 24px rgba(240, 120, 0, 0.10);
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+
+  /* ===== NAVBAR ===== */
+ 
+nav{
+
+    background-color: orange;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    padding: 15px;
+}
+
+nav a:hover{
+     color: rgb(255, 255, 255);
+     transition: 0.3s;
+}
+
+nav ul{
+    display: flex;
+    justify-content: right;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon {
+    width: 80px;
+}
+
+  /* ===== BREADCRUMB ===== */
+  .breadcrumb {
+    padding: 22px 48px 0;
+  }
+
+  .back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--orange);
+    text-decoration: none;
+    transition: gap 0.2s;
+  }
+
+  .back-btn:hover {
+    gap: 10px;
+  }
+
+  /* ===== MAIN LAYOUT ===== */
+  main {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 32px 48px 64px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
+    align-items: start;
+  }
+
+  /* ===== PRODUCT IMAGE ===== */
+  .product-image {
+    width: 100%;
+    aspect-ratio: 1 / 0.85;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    background: #f3ede0;
+  }
+
+  .product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+    display: block;
+  }
+
+  .product-image:hover img {
+    transform: scale(1.04);
+  }
+
+  /* ===== PRODUCT INFO ===== */
+  .info {
+    padding-top: 8px;
+  }
+
+  .product-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--dark);
+    line-height: 1.15;
+    margin-bottom: 14px;
+  }
+
+  .product-desc {
+    font-size: 15.5px;
+    color: var(--muted);
+    line-height: 1.7;
+    margin-bottom: 28px;
+    max-width: 380px;
+  }
+
+  .price {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--orange);
+    margin-bottom: 28px;
+    letter-spacing: -0.5px;
+  }
+
+  /* ===== QUANTIDADE COM CSS PURO ===== */
+  /*
+    Técnica: checkboxes e radio buttons hidden controlam
+    o estado via :checked + CSS counter.
+    O contador usa counter-increment em inputs hidden.
+  */
+
+  .add-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 28px;
+  }
+
+  /* Escondemos os inputs reais */
+  .qty-input {
+    display: none;
+  }
+
+  /* Cada input representa um valor de 1 a 9 */
+  #qty1:checked ~ .qty-ctrl .qty-num::after { content: "1"; }
+  #qty2:checked ~ .qty-ctrl .qty-num::after { content: "2"; }
+  #qty3:checked ~ .qty-ctrl .qty-num::after { content: "3"; }
+  #qty4:checked ~ .qty-ctrl .qty-num::after { content: "4"; }
+  #qty5:checked ~ .qty-ctrl .qty-num::after { content: "5"; }
+  #qty6:checked ~ .qty-ctrl .qty-num::after { content: "6"; }
+  #qty7:checked ~ .qty-ctrl .qty-num::after { content: "7"; }
+  #qty8:checked ~ .qty-ctrl .qty-num::after { content: "8"; }
+  #qty9:checked ~ .qty-ctrl .qty-num::after { content: "9"; }
+
+  /* Botão − (mostra o label anterior) */
+  #qty1:checked ~ .qty-ctrl .btn-minus { pointer-events: none; opacity: 0.3; }
+  #qty1:checked ~ .qty-ctrl label[for="qty1"].btn-minus { display: flex; }
+  #qty2:checked ~ .qty-ctrl label[for="qty1"].btn-minus { display: flex; }
+  #qty3:checked ~ .qty-ctrl label[for="qty2"].btn-minus { display: flex; }
+  #qty4:checked ~ .qty-ctrl label[for="qty3"].btn-minus { display: flex; }
+  #qty5:checked ~ .qty-ctrl label[for="qty4"].btn-minus { display: flex; }
+  #qty6:checked ~ .qty-ctrl label[for="qty5"].btn-minus { display: flex; }
+  #qty7:checked ~ .qty-ctrl label[for="qty6"].btn-minus { display: flex; }
+  #qty8:checked ~ .qty-ctrl label[for="qty7"].btn-minus { display: flex; }
+  #qty9:checked ~ .qty-ctrl label[for="qty8"].btn-minus { display: flex; }
+
+  /* Botão + (mostra o label seguinte) */
+  #qty9:checked ~ .qty-ctrl .btn-plus { pointer-events: none; opacity: 0.3; }
+  #qty1:checked ~ .qty-ctrl label[for="qty2"].btn-plus { display: flex; }
+  #qty2:checked ~ .qty-ctrl label[for="qty3"].btn-plus { display: flex; }
+  #qty3:checked ~ .qty-ctrl label[for="qty4"].btn-plus { display: flex; }
+  #qty4:checked ~ .qty-ctrl label[for="qty5"].btn-plus { display: flex; }
+  #qty5:checked ~ .qty-ctrl label[for="qty6"].btn-plus { display: flex; }
+  #qty6:checked ~ .qty-ctrl label[for="qty7"].btn-plus { display: flex; }
+  #qty7:checked ~ .qty-ctrl label[for="qty8"].btn-plus { display: flex; }
+  #qty8:checked ~ .qty-ctrl label[for="qty9"].btn-plus { display: flex; }
+
+  .qty-ctrl {
+    display: flex;
+    align-items: center;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--white);
+    position: relative;
+  }
+
+  /* Todos os labels − e + ficam hidden por padrão */
+  .qty-ctrl label {
+    display: none;
+    width: 40px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--text);
+    transition: background 0.15s, color 0.15s;
+    user-select: none;
+  }
+
+  .qty-ctrl label:hover {
+    background: var(--orange);
+    color: var(--white);
+  }
+
+  .qty-num {
+    width: 44px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text);
+    line-height: 48px;
+    border-left: 1.5px solid var(--border);
+    border-right: 1.5px solid var(--border);
+    user-select: none;
+  }
+
+  /* Valor padrão (qty1 checked) */
+  .qty-num::after { content: "1"; }
+
+  /* ===== BOTÃO ADICIONAR AO CARRINHO ===== */
+  .add-btn {
+    flex: 1;
+    height: 52px;
+    background: var(--orange);
+    color: var(--white);
+    border: none;
+    border-radius: 12px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+    box-shadow: 0 4px 16px rgba(240, 120, 0, 0.25);
+  }
+
+  .add-btn:hover {
+    background: var(--orange-dark);
+    transform: translateY(-1px);
+    box-shadow: 0 8px 24px rgba(240, 120, 0, 0.35);
+  }
+
+  .add-btn:active {
+    transform: scale(0.98);
+  }
+
+  .add-btn svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* ===== DELIVERY BOX ===== */
+  .delivery-box {
+    border: 1.5px solid var(--border);
+    border-radius: 14px;
+    padding: 18px 20px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: var(--white);
+  }
+
+  .delivery-icon {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    background: #FFF3E0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+  }
+
+  .delivery-label {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 2px;
+  }
+
+  .delivery-time {
+    font-size: 13px;
+    color: var(--muted);
+  }
+
+  /* ===== FOOTER NOTE ===== */
+  .ai-note {
+    text-align: center;
+    padding: 18px;
+    font-size: 11px;
+    color: #bbb;
+    letter-spacing: 0.5px;
+  }
+
+  /* ===== ANIMATIONS ===== */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(18px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .product-image { animation: fadeUp 0.5s ease both; }
+  .info          { animation: fadeUp 0.55s 0.1s ease both; }
+

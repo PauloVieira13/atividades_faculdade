@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    background-color:rgb(247, 246, 244);
+}
+
+nav{
+
+    background-color: orange;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    padding: 15px;
+}
+
+nav a:hover{
+     color: rgb(255, 255, 255);
+     transition: 0.3s;
+}
+
+nav ul{
+    display: flex;
+    justify-content: right;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.button {
+display: inline-block;
+  width: 120px;
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none; 
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+.button:hover {
+  background-color: darkorange;
+  transition: 0.3s;
+}
+
+
+.informacao{
+    margin-left: 15px;
+}
+
+    .t1{
+        font-size: 50px;
+    }
+        .destaque{
+             color: orange;     
+            }
+
+.conteudo{
+    max-width: 525px;
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon {
+    width: 80px;
+}
+
+.titulo {
+    margin: 0;
+    font-size: 40px;
+
+}
+.img1 {
+  position: absolute;
+  top: 90px;
+  right: 0px; 
+}
+
+
+.catalogo {
+  display: flex;
+  gap: 20px;          /* espaço entre os cards */
+  flex-wrap: wrap;    /* quebra linha se não couber */
+  justify-content: center;
+}
+
+.card {
+  width: 200px;
+  padding: 15px;
+  margin-left: 15px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.ver_produto{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: darkorange;
+}
+

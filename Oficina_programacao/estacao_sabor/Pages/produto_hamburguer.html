@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hamburguer clássico - Estação do Sabor</title>
+<link rel="stylesheet" href="../CSS/estilo.css">
+<link rel="shortcut icon" href="../Imagem/icon.PNG" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+ <nav>
+        <div class="logo">
+            <img src="../imagem/icon.PNG" alt="logo" class="icon">
+            <h1 class="titulo">Estação do Sabor</h1>
+        </div>
+         
+        <ul>
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="../Pages/cadastro.html">Cadastro</a></li>
+            <li><a href="../Pages/catalogo.html">Cardápio</a></li>
+        </ul>
+    
+    </nav>
+
+<div class="breadcrumb">
+  <a href="../Pages/catalogo.html" class="back-btn">← Voltar para o cardápio</a>
+</div>
+
+<main>
+
+  <div class="product-image">
+    <img
+      src="../Imagem/hamburguer.jpg"
+      alt="Hamburguer clássico"
+    >
+  </div>
+
+  <div class="info">
+
+    <h1 class="product-title">Hamburguer clássico</h1>
+
+    <p class="product-desc">
+      Pão brioche, hambúrguer de carne bovina, queijo cheddar, alface, tomate, maionese e picles.
+    </p>
+    </p>
+
+    <div class="price">R$ 38,00</div>
+
+    <div class="add-row">
+
+      <input class="qty-input" type="radio" name="qty" id="qty1" checked>
+      <input class="qty-input" type="radio" name="qty" id="qty2">
+      <input class="qty-input" type="radio" name="qty" id="qty3">
+      <input class="qty-input" type="radio" name="qty" id="qty4">
+      <input class="qty-input" type="radio" name="qty" id="qty5">
+      <input class="qty-input" type="radio" name="qty" id="qty6">
+      <input class="qty-input" type="radio" name="qty" id="qty7">
+      <input class="qty-input" type="radio" name="qty" id="qty8">
+      <input class="qty-input" type="radio" name="qty" id="qty9">
+
+      <div class="qty-ctrl">
+
+        <label for="qty1" class="btn-minus">−</label>
+        <label for="qty2" class="btn-minus">−</label>
+        <label for="qty3" class="btn-minus">−</label>
+        <label for="qty4" class="btn-minus">−</label>
+        <label for="qty5" class="btn-minus">−</label>
+        <label for="qty6" class="btn-minus">−</label>
+        <label for="qty7" class="btn-minus">−</label>
+        <label for="qty8" class="btn-minus">−</label>
+        <label for="qty9" class="btn-minus">−</label>
+
+        <div class="qty-num"></div>
+
+        <label for="qty1" class="btn-plus">+</label>
+        <label for="qty2" class="btn-plus">+</label>
+        <label for="qty3" class="btn-plus">+</label>
+        <label for="qty4" class="btn-plus">+</label>
+        <label for="qty5" class="btn-plus">+</label>
+        <label for="qty6" class="btn-plus">+</label>
+        <label for="qty7" class="btn-plus">+</label>
+        <label for="qty8" class="btn-plus">+</label>
+        <label for="qty9" class="btn-plus">+</label>
+      </div>
+
+      <a href="../Pages/cadastro.html" class="add-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="9"  cy="21" r="1"/>
+          <circle cx="20" cy="21" r="1"/>
+          <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72
+                   a2 2 0 0 0 2-1.61L23 6H6"/>
+        </svg>
+        Adicionar ao carrinho
+      </a>
+
+    </div>
+
+    <div class="delivery-box">
+      <div class="delivery-icon">🛵</div>
+      <div>
+        <div class="delivery-label">Entrega</div>
+        <div class="delivery-time">Entre 30 e 45 minutos para sua região.</div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+</body>
+</html>
