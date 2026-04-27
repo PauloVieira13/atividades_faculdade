@@ -1,0 +1,38 @@
+
+## 🟢 Parte I – Questões Objetivas
+ 1. **c)** Intel 4004
+ 2. **b)** 1971
+ 3. **c)** MOS 6502
+ 4. **b)** Steve Jobs e Steve Wozniak
+ 5. **c)** IBM PC
+ 6. **c)** Motorola 68000
+ 7. **d)** 2020
+ 8. **b)** M1
+ 9. **c)** O número de transistores dobra aproximadamente a cada dois anos
+ 10. **b)** Popularizou o computador pessoal
+## 🟡 Parte II – Questões Discursivas
+**11. Definição de Microprocessador:**
+Um microprocessador é um circuito integrado que contém todas as funções de uma Unidade Central de Processamento (**CPU**) em um único chip de silício. Ele é o "cérebro" do computador, responsável por buscar, decodificar e executar instruções, controlando todos os outros componentes do sistema.
+**12. Importância do Intel 4004:**
+O Intel 4004 foi o primeiro microprocessador comercial do mundo. Sua importância reside na **consolidação de componentes**: antes dele, uma CPU exigia vários chips e placas; o 4004 provou que era possível colocar toda a lógica de processamento em uma única peça de silício, permitindo a miniaturização radical dos computadores.
+**13. Apple II e a Popularização:**
+Diferente dos computadores anteriores que eram vendidos como "kits" para entusiastas (como o Apple I), o Apple II era um produto acabado, com teclado integrado, gabinete de plástico e capacidade de exibir cores. Ele foi amigável ao consumidor comum e às escolas, transformando o computador de um hobby técnico em uma ferramenta de produtividade e educação.
+**14. x86 vs. ARM (Apple Silicon):**
+ * **x86 (Intel/AMD):** Baseada na filosofia CISC (Complex Instruction Set Computer). Foca em alto desempenho bruto, mas tende a consumir mais energia e gerar mais calor.
+ * **ARM (Apple Silicon/M1):** Baseada na filosofia RISC (Reduced Instruction Set Computer). É extremamente eficiente em termos de energia (performance por Watt), permitindo que dispositivos tenham longa duração de bateria e aqueçam menos, mesmo com alta velocidade.
+**15. Impacto do IBM PC:**
+O IBM PC criou um **padrão de mercado**. Ao usar uma arquitetura "aberta" (permitindo que outras empresas fabricassem periféricos e clones), ele fez com que o hardware da Intel e o software da Microsoft se tornassem a base da computação corporativa e doméstica por décadas, definindo o que conhecemos hoje como "PC".
+**16. Macintosh e Interface Gráfica:**
+O Macintosh (1984) foi o primeiro computador de sucesso comercial a popularizar a **GUI (Interface Gráfica do Usuário)** e o uso do **mouse**. Antes dele, os computadores eram operados por linhas de comando (texto). O Mac introduziu janelas, ícones e menus, tornando a computação intuitiva para pessoas que não eram especialistas.
+**17. Migração para o M1 (Apple Silicon):**
+A decisão permitiu à Apple ter controle total sobre seu hardware e software ("integração vertical"). Ao abandonar a Intel, a Apple eliminou a dependência do cronograma de lançamentos de terceiros e conseguiu criar chips otimizados especificamente para o sistema macOS, resultando em um salto massivo de performance e eficiência energética.
+**18. Microprocessadores e Smartphones:**
+A evolução dos microprocessadores permitiu a criação dos **SoCs (System on a Chip)**, onde CPU, GPU e memória estão no mesmo chip. Sem a miniaturização extrema e a eficiência energética desenvolvida para processadores móveis (especialmente a arquitetura ARM), seria impossível ter o poder de um computador antigo na palma da mão com bateria que dura o dia todo.
+**19. Lei de Moore e Desenvolvimento:**
+A Lei de Moore funcionou como uma "profecia autorrealizável" que guiou a indústria. Ela ditou o ritmo de inovação, forçando fabricantes a dobrar a densidade de transistores a cada 18-24 meses. Isso resultou na redução drástica do custo da computação e permitiu o surgimento da internet, redes sociais, inteligência artificial e computação em nuvem.
+**20. Linha do Tempo da Evolução:**
+ 1. **Intel 4004 (1971):** O nascimento do microprocessador em um chip.
+ 2. **Apple I (1976):** O início do computador pessoal de placa única.
+ 3. **IBM PC (1981):** A padronização da arquitetura x86 e uso profissional.
+ 4. **Macintosh (1984):** A revolução da interface gráfica e usabilidade.
+ 5. **Apple Silicon (2020):** A era da eficiência extrema e chips customizados.
