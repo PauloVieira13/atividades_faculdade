@@ -1,0 +1,35 @@
+
+## 🟢 Parte I – Questões Objetivas
+ 1. **b)** Valores contínuos representados por grandezas físicas
+ 2. **c)** Tensão elétrica
+ 3. **c)** John Napier (pela invenção dos logaritmos, base da régua de cálculo)
+ 4. **a)** Vannevar Bush
+ 5. **c)** Segunda Guerra Mundial
+ 6. **c)** Rapidez para cálculos específicos em tempo real
+ 7. **b)** Baixa precisão e sensibilidade a ruídos
+ 8. **b)** Amplificadores operacionais
+ 9. **b)** Representam valores por variações físicas contínuas
+ 10. **b)** Ao surgimento dos computadores digitais
+## 🟡 Parte II – Questões Discursivas
+**11. Princípio de Funcionamento:**
+Diferente do digital, que "conta" números, o computador analógico "mede" grandezas. Ele funciona criando uma analogia física de um problema matemático. Se você quer somar duas variáveis, você pode somar duas tensões elétricas ou duas pressões hidráulicas. O resultado é obtido observando-se a grandeza física final em um medidor (como um voltímetro).
+**12. Analisador Diferencial:**
+Desenvolvido por Vannevar Bush no MIT na década de 1930, era um computador mecânico (e depois eletromecânico) gigante composto por eixos, engrenagens e discos. Sua importância histórica reside na capacidade de resolver equações diferenciais complexas que eram humanamente impossíveis de calcular em tempo útil, sendo fundamental para a engenharia e balística antes da era digital.
+**13. Representação de Dados (Analógico vs. Digital):**
+ * **Analógico:** Os dados são **contínuos**. Um valor pode ser 1, 1.1, 1.15 ou infinitas variações entre eles, representados por uma voltagem ou ângulo de rotação.
+ * **Digital:** Os dados são **discretos**. Eles são convertidos em códigos binários (0 e 1). Não há meio-termo; o valor é representado por estados definidos.
+**14. Utilidade Militar:**
+Eles eram cruciais para sistemas de controle de tiro (mira de canhões em navios e aviões) e radares. Por operarem em tempo real e sem a necessidade de "processar" um software complexo, eles podiam ajustar instantaneamente a trajetória de um projétil baseando-se em variáveis de vento, velocidade e distância.
+**15. Fatores do Declínio:**
+O principal fator foi a falta de versatilidade. Um computador analógico era construído para uma tarefa específica; para mudar o cálculo, muitas vezes era necessário remontar o hardware. Além disso, a computação digital ofereceu precisão absoluta, facilidade de programação (via software) e a capacidade de armazenar grandes volumes de dados.
+## 🔵 Parte III – Questões Aplicadas e Reflexivas
+**16. Computadores Mecânicos vs. Analógicos:**
+Computadores mecânicos utilizam componentes rígidos (rodas dentadas, alavancas) para representar números, podendo ser digitais (como a Pascalina, que conta dentes de engrenagem) ou analógicos (como a régua de cálculo). Computadores analógicos modernos são geralmente eletrônicos, usando a variação de corrente e tensão, o que permite uma velocidade de resposta muito superior aos sistemas mecânicos.
+**17. Impacto de Ruídos Elétricos:**
+Como o dado no computador analógico é a própria voltagem, qualquer interferência (ruído) altera o valor do cálculo. Se um sistema representa o número "5" como 5.0V, um ruído de 0.2V fará o computador entender "5.2", gerando um erro. Nos digitais, o ruído precisa ser muito alto para transformar um "0" em "1", tornando-os mais robustos.
+**18. Eficiência em Equações Diferenciais:**
+Os computadores analógicos são naturalmente bons para isso porque seus componentes básicos (como capacitores em amplificadores operacionais) realizam operações de **integração** e **derivação** de forma nativa e instantânea. Enquanto um digital precisa de milhares de iterações numéricas para aproximar o resultado, o analógico "simula" a curva da equação continuamente.
+**19. Relação com John von Neumann:**
+O modelo de Von Neumann consolidou a computação **digital** ao definir a separação entre memória e processamento para instruções binárias. Isso permitiu a criação de máquinas de propósito geral. Enquanto o computador analógico era uma "calculadora fixa", a arquitetura de Von Neumann permitiu que o hardware fosse genérico e o software fizesse o trabalho pesado.
+**20. Relevância em Sistemas Modernos:**
+Apesar da hegemonia digital, os conceitos analógicos são vitais no controle industrial (sensores de temperatura, pressão e atuadores). O mundo real é analógico; portanto, entender como converter e processar esses sinais contínuos é a base da automação, da robótica e do processamento de áudio/vídeo de alta fidelidade.
