@@ -1,0 +1,38 @@
+
+## 🟢 Questões Objetivas
+ 1. **c)** Terceira
+ 2. **b)** Jack Kilby
+ 3. **c)** Texas Instruments
+ 4. **a)** Fairchild Semiconductor
+ 5. **c)** Silício
+ 6. **c)** Miniaturização e maior confiabilidade
+ 7. **c)** Terceira
+ 8. **b)** Small Scale Integration
+ 9. **a)** Very Large Scale Integration
+ 10. **c)** Microprocessador
+## 🟡 Questões Discursivas
+**11. O que é um Circuito Integrado (CI):**
+Um CI, também conhecido como "chip", é um conjunto de componentes eletrônicos (como transistores, resistores e capacitores) fabricados sobre uma única e pequena peça de material semicondutor (geralmente silício). Em vez de conectar componentes individuais com fios, todo o circuito é criado quimicamente e fisicamente em uma única placa, funcionando como uma unidade.
+**12. Problemas resolvidos:**
+Os CIs resolveram o problema da "tirania dos números" (a dificuldade de montar circuitos extremamente complexos manualmente). Eles eliminaram a necessidade de milhares de soldas manuais, reduziram drasticamente o consumo de energia, o calor gerado e o espaço físico ocupado, além de aumentar a velocidade de processamento.
+**13. Transistores Discretos vs. Circuitos Integrados:**
+ * **Transistores Discretos:** São componentes individuais que precisam ser soldados um a um em uma placa. Isso ocupa espaço e aumenta o risco de falha nas conexões.
+ * **Circuitos Integrados:** Contêm centenas, milhares ou milhões de transistores em um único invólucro, já interconectados internamente, sendo muito mais eficientes e confiáveis.
+**14. Processo Planar de Robert Noyce:**
+Foi fundamental porque permitiu a fabricação de componentes e suas conexões diretamente sobre a superfície plana do silício usando processos fotográficos e químicos. Isso possibilitou a produção em massa de chips, tornando-os muito mais baratos e fáceis de fabricar do que o método inicial de Jack Kilby.
+**15. Importância do IBM System/360:**
+Foi o primeiro sistema a usar o conceito de **família de computadores**. Antes dele, cada modelo de computador tinha um software e periféricos próprios. O System/360 permitiu que o mesmo programa rodasse em máquinas menores ou maiores da mesma linha, padronizando a arquitetura e protegendo o investimento das empresas em software.
+**16. SSI, MSI, LSI e VLSI:**
+Essas siglas referem-se à densidade de integração:
+ * **SSI (Small Scale):** Até 10 transistores por chip.
+ * **MSI (Medium Scale):** De 10 a 100 transistores.
+ * **LSI (Large Scale):** De 100 a 10.000 transistores.
+ * **VLSI (Very Large Scale):** Acima de 10.000 (chegando a bilhões atualmente).
+**17. Contribuição para a Miniaturização:**
+Ao integrar múltiplos componentes em um único cristal de silício, a distância física que a eletricidade precisa percorrer diminuiu drasticamente. Isso permitiu que o que antes ocupava um gabinete inteiro coubesse em uma pequena placa de circuito, resultando em dispositivos menores, mais leves e portáteis.
+**18. Impacto na Indústria e Sociedade:**
+Os CIs tornaram a eletrônica onipresente. Eles permitiram a computação em tempo real, o avanço da exploração espacial (o computador do programa Apollo usava CIs), a evolução dos sistemas de telecomunicações e a redução de custos, levando a tecnologia do ambiente corporativo para o doméstico.
+**19. Divisor de águas:**
+Eles são o divisor de águas porque mudaram a computação de algo mecânico/eletromecânico e frágil para algo puramente eletrônico e extremamente confiável. Sem o CI, seria fisicamente impossível construir máquinas com o poder de processamento atual, pois o calor e o tamanho seriam incontroláveis.
+**20. Relação com Computadores Pessoais:**
+A evolução contínua dos CIs permitiu colocar toda a Unidade Central de Processamento (CPU) em um único chip: o **microprocessador**. Esse nível de integração (LSI/VLSI) foi o que permitiu que o computador saísse das salas refrigeradas e coubesse em cima de uma mesa, dando origem à era dos PCs (Personal Computers) na década de 1970 e 80.
