@@ -1,0 +1,41 @@
+
+## 🟢 Parte I – Questões Objetivas
+ 1. **c)** Primeira geração
+ 2. **c)** Válvulas termiônicas
+ 3. **b)** Interruptor eletrônico
+ 4. **c)** 18.000 válvulas
+ 5. **c)** Decifração de códigos
+ 6. **b)** Programa armazenado
+ 7. **c)** John von Neumann
+ 8. **b)** Superaquecimento
+ 9. **c)** Muito grande
+ 10. **b)** Do transistor
+## 🟡 Parte II – Questões Discursivas
+**11. Funcionamento da Válvula Termiônica:**
+A válvula funciona controlando o fluxo de elétrons em um ambiente de vácuo. Um filamento aquecido (cátodo) emite elétrons que são atraídos por uma placa (ânodo). Ao inserir uma grade de controle entre eles, é possível interromper ou permitir esse fluxo. Na computação, isso permitiu que a válvula atuasse como um interruptor binário (ligado/desligado), processando informações de forma eletrônica em vez de mecânica.
+**12. Características da Primeira Geração:**
+ * Uso de **válvulas** como componente lógico principal.
+ * Dimensões gigantescas (ocupavam salas inteiras).
+ * Altíssimo consumo de energia e dissipação de calor.
+ * Programação em **linguagem de máquina** (bits) ou via painéis de fiação.
+ * Uso de tambores magnéticos ou cartões perfurados para armazenamento.
+**13. Revolução do ENIAC:**
+O ENIAC foi revolucionário por ser o primeiro computador digital eletrônico de propósito geral e programável. Diferente das máquinas calculadoras anteriores, ele era totalmente eletrônico (sem partes mecânicas móveis no processamento), o que o tornava mil vezes mais rápido que qualquer máquina eletromecânica da época.
+**14. Limitações Técnicas:**
+ * **Confiabilidade:** As válvulas queimavam com frequência (quase diariamente no ENIAC).
+ * **Calor:** O superaquecimento exigia sistemas de resfriamento massivos.
+ * **Manutenção:** Localizar uma válvula queimada entre milhares era um trabalho exaustivo.
+ * **Programação:** Era difícil e lenta, muitas vezes exigindo a reconexão física de cabos.
+**15. Importância do Programa Armazenado:**
+Antes desse conceito, "programar" significava reconfigurar o hardware fisicamente. O programa armazenado permitiu que as instruções fossem guardadas na memória junto com os dados. Isso tornou os computadores flexíveis e rápidos, pois a máquina podia alterar sua tarefa apenas carregando um novo software, estabelecendo a base para como todos os computadores modernos operam hoje.
+## 🔵 Parte III – Questões Aplicadas e Reflexivas
+**16. Válvulas vs. Transistores:**
+Os computadores a válvulas eram lentos, enormes e propensos a falhas. Os transistorizados (Segunda Geração) trouxeram componentes muito menores, mais frios, mais baratos e infinitamente mais confiáveis. O transistor realizava a mesma função de "interruptor", mas de forma sólida (sem vácuo ou calor), permitindo a miniaturização.
+**17. Impacto do Consumo Energético:**
+O consumo era tão alto que, diz a lenda, as luzes da Filadélfia piscavam quando o ENIAC era ligado. Isso limitava o uso dessas máquinas a grandes instituições governamentais ou universidades, pois o custo operacional e a infraestrutura elétrica necessária eram proibitivos para empresas privadas.
+**18. Superaquecimento e Confiabilidade:**
+O calor extremo acelerava o desgaste dos materiais e causava a expansão térmica dos componentes, levando a falhas mecânicas e eletrônicas. Como a taxa de falha de uma válvula é proporcional à sua temperatura de operação, a baixa confiabilidade era o maior obstáculo para cálculos de longa duração.
+**19. Válvulas e Arquitetura von Neumann:**
+As máquinas a válvulas evoluíram da programação por fiação (ENIAC) para a arquitetura de von Neumann (EDVAC). Essa transição usou a velocidade das válvulas para ler instruções diretamente da memória. As válvulas formavam a **ULA** e a **Unidade de Controle**, permitindo que a lógica da arquitetura von Neumann fosse executada em milissegundos.
+**20. Importância Histórica:**
+Os computadores a válvulas foram o "campo de provas" da computação. Eles provaram que o processamento eletrônico digital era viável e superior ao mecânico. Sem os desafios enfrentados nessa era (como a necessidade de reduzir o calor e o tamanho), a urgência para a invenção do transistor e, posteriormente, do microprocessador, não teria sido a mesma. Eles são os ancestrais diretos da tecnologia que carregamos nos bolsos hoje.
