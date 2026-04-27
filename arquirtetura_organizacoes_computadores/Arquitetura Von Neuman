@@ -1,0 +1,39 @@
+Parte I – Questões Objetivas
+​b) Alterando conexões físicas e chaves
+​c) Armazenamento conjunto de dados e instruções na mesma memória
+​b) Executar cálculos e operações lógicas
+​c) Interpretar instruções e coordenar a execução
+​b) Pequenas memórias ultrarrápidas dentro da CPU
+​c) Dados e instruções
+​b) Levar dados entre CPU, memória e I/O
+​b) À separação física entre CPU e memória
+​c) Reduzir o impacto do gargalo entre CPU e memória
+​b) Executar código malicioso
+​🟡 Parte II – Questões Discursivas
+​11. Conceito de Programa Armazenado:
+Historicamente, para mudar a tarefa de um computador (como o ENIAC), era necessário reprogramá-lo manualmente via cabos e chaves. O conceito de Programa Armazenado propõe que as instruções do software sejam guardadas na memória principal, assim como os dados. Isso permitiu que os computadores se tornassem máquinas universais, capazes de trocar de função apenas carregando um novo arquivo de programa, sem intervenção física no hardware.
+​12. Componentes Principais:
+​Unidade Central de Processamento (CPU): O "cérebro", que contém a ULA e a UC.
+​Memória Principal (RAM): Armazena temporariamente os programas e dados em execução.
+​Unidade de Entrada e Saída (I/O): Interfaces para comunicação com o mundo exterior (teclado, monitor, discos).
+​Barramentos (Bus): Vias de comunicação que interligam todos os componentes.
+​13. ULA vs. Unidade de Controle:
+​A ULA (Unidade Lógica e Aritmética) é o "músculo": ela executa as operações matemáticas (soma, subtração) e lógicas (AND, OR, comparações).
+​A Unidade de Controle (UC) é o "maestro": ela não faz cálculos, mas lê a instrução da memória, decide o que deve ser feito e envia sinais de controle para os outros componentes agirem.
+​14. Gargalo de Von Neumann:
+Refere-se à limitação de velocidade causada pelo fato de a CPU ser muito mais rápida que a memória. Como existe apenas um caminho (barramento) para buscar dados e instruções, a CPU frequentemente fica "ociosa" esperando a memória entregar a informação. É como ter um chef de cozinha super-rápido, mas que precisa buscar cada ingrediente em uma despensa que fica do outro lado da rua.
+​15. Risco à Segurança:
+O risco principal reside no fato de que a arquitetura original não diferencia, em nível de hardware, o que é um dado (ex: um texto) do que é uma instrução (ex: um comando de apagar arquivos). Se um invasor conseguir inserir um código malicioso em uma área de memória destinada a dados, ele pode enganar a CPU para que ela execute esses dados como se fossem instruções legítimas.
+​🔵 Parte III – Questões Aplicadas e Reflexivas
+​16. Cache em Back-End:
+No Back-End, o cache (como Redis ou cache de CPU) minimiza o tempo de acesso a dados frequentemente requisitados. Em vez de a CPU buscar informações em uma memória lenta ou no disco rígido a cada requisição, ela encontra os dados prontos em uma memória de alta velocidade próxima ao processador, reduzindo o tempo de resposta do servidor.
+​17. Von Neumann e Java:
+Quando um programa Java é executado, o bytecode é carregado na memória RAM (Memória Principal). A JVM (Java Virtual Machine) atua como uma camada que gerencia como essas instruções são buscadas e entregues à CPU física. O ciclo de "busca-decodificação-execução" de Von Neumann é o que processa cada instrução do seu código Java no nível do hardware.
+​18. Ataque de Injeção de Código:
+Esse ataque explora a memória compartilhada. Um invasor pode enviar um comando malicioso através de um campo de formulário (que deveria ser apenas um "dado"). Se o sistema não for seguro, esse dado é gravado na memória e o ponteiro de instrução da CPU é desviado para esse endereço. A CPU, seguindo a lógica de Von Neumann, executará o "dado" como se fosse uma ordem do programa original.
+​19. Von Neumann vs. Harvard:
+​Von Neumann: Usa o mesmo barramento e a mesma memória para dados e instruções. É mais simples e flexível, mas sofre com o gargalo.
+​Harvard: Possui memórias e barramentos separados para dados e instruções. Isso permite que a CPU acesse ambos simultaneamente, aumentando o desempenho (comumente usada em microcontroladores e DSPs).
+​20. Confidencialidade e Integridade:
+​Integridade: Vulnerabilidades como o Buffer Overflow permitem que dados sobrescrevam instruções, alterando o comportamento do sistema e violando a integridade do software.
+​Confidencialidade: Como dados e instruções coabitam o mesmo espaço, falhas de isolamento de memória podem permitir que um processo "leia" instruções ou dados sensíveis de outro processo, expondo senhas ou chaves criptográficas armazenadas na RAM.
