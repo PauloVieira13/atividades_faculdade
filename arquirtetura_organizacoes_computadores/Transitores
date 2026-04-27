@@ -1,0 +1,38 @@
+
+## 🟢 Parte I – Questões Objetivas
+ 1. **b)** Segunda geração
+ 2. **b)** Bell Labs
+ 3. **b)** John Bardeen, Walter Brattain e William Shockley
+ 4. **c)** Válvulas termiônicas
+ 5. **c)** Menor aquecimento
+ 6. **c)** Computador transistorizado
+ 7. **b)** Interruptor eletrônico
+ 8. **c)** Miniaturização dos equipamentos
+ 9. **c)** COBOL e FORTRAN
+ 10. **c)** Redução de custo e aumento de eficiência
+## 🟡 Parte II – Questões Discursivas
+**11. Funcionamento Básico:**
+O transistor é um dispositivo semicondutor que controla o fluxo de corrente elétrica. Ele possui três terminais (geralmente chamados de base, coletor e emissor). Ao aplicar uma pequena corrente em um desses terminais (a base), ele pode permitir ou bloquear a passagem de uma corrente muito maior entre os outros dois. Na computação, isso funciona como um interruptor binário (0 ou 1) extremamente rápido e sem partes móveis.
+**12. Válvulas vs. Transistores:**
+ * **Válvulas:** Grandes, frágeis (vidro), consumiam muita energia, geravam calor excessivo e queimavam com frequência.
+ * **Transistores:** Pequenos, robustos (estado sólido), consumo de energia irrisório, quase não geram calor e possuem uma vida útil muito mais longa.
+**13. Por que foi Revolucionário?**
+Ele foi revolucionário porque permitiu a eletrônica de "estado sólido". Antes dele, a complexidade dos computadores era limitada pelo calor e falhas das válvulas. O transistor permitiu criar máquinas muito mais complexas, confiáveis e baratas, tornando o computador um produto viável para além do uso militar e acadêmico.
+**14. Impacto na Computação Empresarial:**
+Com os transistores, os computadores ficaram menores e mais acessíveis. Isso permitiu que grandes empresas (como bancos e companhias aéreas) adquirissem máquinas para processamento de dados, controle de estoque e folha de pagamento. Foi nessa era que o computador se tornou uma ferramenta essencial de gestão corporativa.
+**15. Características da Segunda Geração:**
+ * Substituição de válvulas por **transistores**.
+ * Início do uso de **memórias de núcleo magnético**.
+ * Surgimento das **linguagens de alto nível** (mais próximas da linguagem humana).
+ * Redução significativa no tamanho físico e na necessidade de ar-condicionado massivo.
+## 🔵 Parte III – Questões Aplicadas e Reflexivas
+**16. Impacto Energético:**
+Enquanto um computador a válvulas como o ENIAC consumia cerca de 150 kW (suficiente para um bairro), um computador transistorizado equivalente consumia uma fração minúscula disso. Isso reduziu drasticamente o custo operacional e a infraestrutura necessária para manter um centro de processamento de dados.
+**17. Miniaturização e Evolução:**
+A miniaturização permitiu que componentes que antes ocupavam prateleiras inteiras passassem a ocupar centímetros. Isso não apenas economizou espaço, mas aumentou a velocidade de processamento, pois os sinais elétricos tinham distâncias menores para percorrer entre os componentes.
+**18. Linguagens de Programação:**
+Com hardware mais confiável, os cientistas puderam focar menos em "consertar a máquina" e mais em como operá-la. O aumento da capacidade de memória e processamento dos computadores transistorizados permitiu a criação de compiladores para linguagens como **FORTRAN** (ciência) e **COBOL** (negócios), facilitando o desenvolvimento de softwares complexos.
+**19. Caminho para os Circuitos Integrados:**
+O transistor provou que semicondutores eram o caminho. O próximo passo lógico foi o desenvolvimento de técnicas para fabricar vários transistores e outros componentes (resistores, capacitores) em uma única peça de silício, o que deu origem ao **Circuito Integrado (3ª Geração)**. Sem o sucesso do transistor individual, a integração não teria sido concebida.
+**20. Importância Histórica Atual:**
+O transistor é a base de toda a civilização digital. Um smartphone moderno contém bilhões de transistores microscópicos dentro de seu processador. Eles são os responsáveis por processar cada bit de informação em servidores de nuvem, dispositivos de IoT e inteligência artificial. Sem a invenção de 1947, a computação moderna como conhecemos simplesmente não existiria.
