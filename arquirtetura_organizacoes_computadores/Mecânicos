@@ -1,0 +1,39 @@
+
+## 🟢 Parte I – Questões Objetivas
+ 1. **b)** Engrenagens e mecanismos físicos
+ 2. **c)** Blaise Pascal
+ 3. **b)** Soma e subtração
+ 4. **b)** Roda escalonada (que permitia multiplicação e divisão direta)
+ 5. **a)** Charles Babbage
+ 6. **b)** Calcular tabelas matemáticas automaticamente
+ 7. **b)** Introduziu conceitos semelhantes aos computadores modernos
+ 8. **a)** Ada Lovelace
+ 9. **c)** Eletricidade
+ 10. **c)** Lentidão e complexidade mecânica
+## 🟡 Parte II – Questões Discursivas
+**11. Funcionamento da Pascalina:**
+A Pascalina funcionava através de um sistema de engrenagens interconectadas que representavam as casas decimais (unidades, dezenas, centenas, etc.). Ao girar um disco para adicionar um número, se uma engrenagem completasse uma volta inteira (passando de 9 para 0), um mecanismo de "vai-um" movia automaticamente a engrenagem vizinha à esquerda em uma posição. Era, essencialmente, um odômetro sofisticado.
+**12. Diferencial vs. Analítica:**
+ * **Máquina Diferencial:** Foi projetada para um propósito específico — calcular polinômios e gerar tabelas matemáticas sem erros humanos, utilizando o método das diferenças.
+ * **Máquina Analítica:** Foi um projeto muito mais ambicioso. Era uma máquina de **propósito geral**, capaz de realizar qualquer cálculo matemático. Ela introduziu a ideia de memória, unidade de processamento e entrada via cartões perfurados.
+**13. Máquina Analítica como Precursora:**
+Ela é considerada precursora porque seu design separava o processamento do armazenamento. Babbage projetou o "Moinho" (equivalente à CPU) e o "Engenho" (equivalente à memória RAM). Além disso, ela previa o uso de estruturas de controle como loops (repetições) e desvios condicionais (se/então), que são a base de qualquer software moderno.
+**14. Importância de Ada Lovelace:**
+Ada foi a primeira a perceber que a Máquina Analítica não servia apenas para calcular números, mas para processar qualquer símbolo ou entidade que pudesse ser traduzida logicamente (como música ou artes). Ela escreveu o primeiro algoritmo para ser processado por uma máquina (o cálculo dos números de Bernoulli), tornando-se a primeira programadora do mundo.
+**15. Limitações dos Computadores Mecânicos:**
+A principal limitação era a **fricção e o desgaste físico**. Como dependiam de milhares de peças móveis de metal, a precisão necessária para fabricá-las era maior do que a tecnologia da época permitia. Além disso, a velocidade era limitada pela rapidez com que as engrenagens podiam girar sem quebrar, e o tamanho físico dessas máquinas era imenso para um poder de processamento muito baixo.
+## 🔵 Parte III – Questões Aplicadas e Reflexivas
+**16. Eficiência e Escalabilidade:**
+Computadores mecânicos são ineficientes e pouco escaláveis porque, para aumentar a capacidade, é necessário aumentar fisicamente o número de engrenagens e o tamanho da máquina. Já os eletrônicos escalam através da miniaturização (Lei de Moore), permitindo colocar bilhões de "interruptores" (transistores) no mesmo espaço onde antes mal cabia uma engrenagem.
+**17. Falta de Eletricidade:**
+Sem eletricidade, o movimento precisava ser gerado por força humana (manivelas) ou vapor. Isso causava uma inconsistência na velocidade de operação e limitava a complexidade dos cálculos, pois a energia mecânica se dissipa rapidamente devido ao atrito, algo que não ocorre da mesma forma com sinais elétricos.
+**18. Babbage vs. Von Neumann:**
+Existe uma correlação direta:
+ * O **Moinho** de Babbage corresponde à **ULA** (Unidade Lógica e Aritmética) de Von Neumann.
+ * O **Engenho** corresponde à **Memória Principal**.
+ * Os **Cartões Perfurados** correspondem aos dispositivos de **Entrada/Saída**.
+   Ambas as arquiteturas seguem a lógica de um fluxo de dados sendo processado por uma unidade central sob o controle de um conjunto de instruções.
+**19. Influência dos Cartões Perfurados:**
+Inspirados no tear de Jacquard, os cartões perfurados provaram que era possível separar o hardware do software. Eles permitiram "alimentar" a máquina com instruções diferentes sem precisar trocar suas peças. Essa tecnologia foi usada desde o censo dos EUA em 1890 até os computadores de grande porte (Mainframes) da década de 1970.
+**20. Importância Histórica:**
+Os computadores mecânicos foram fundamentais porque provaram que o raciocínio matemático e lógico poderia ser **automatizado**. Eles tiraram a computação do campo abstrato da mente humana e a transformaram em um processo físico e repetível, pavimentando o caminho teórico para que, quando a eletrônica surgisse, a lógica de como processar informações já estivesse estabelecida.
