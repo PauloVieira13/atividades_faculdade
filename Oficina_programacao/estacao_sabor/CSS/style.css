@@ -96,8 +96,8 @@ display: inline-block;
 
 .catalogo {
   display: flex;
-  gap: 20px;          /* espaço entre os cards */
-  flex-wrap: wrap;    /* quebra linha se não couber */
+  gap: 20px;        
+  flex-wrap: wrap;  
   justify-content: center;
 }
 
