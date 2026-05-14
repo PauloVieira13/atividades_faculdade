@@ -1,4 +1,4 @@
-    /* ===== RESET & BASE ===== */
+
   *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -24,8 +24,6 @@
     color: var(--text);
     min-height: 100vh;
   }
-
-  /* ===== NAVBAR ===== */
  nav{
 
     background-color: orange;
@@ -65,9 +63,6 @@ ul{
 .icon {
     width: 80px;
 }
-
-
-  /* ===== PAGE WRAPPER ===== */
   .page {
     min-height: calc(100vh - 68px);
     display: flex;
@@ -75,13 +70,12 @@ ul{
     justify-content: center;
     padding: 48px 24px;
 
-    /* Decoração laranja ao fundo (canto direito) */
+
     background:
       radial-gradient(ellipse 340px 280px at 92% 80%, rgba(240,120,0,0.10) 0%, transparent 70%),
       var(--bg);
   }
 
-  /* ===== CARD DO FORMULÁRIO ===== */
   .card {
     width: 100%;
     max-width: 580px;
@@ -106,7 +100,6 @@ ul{
     margin-bottom: 36px;
   }
 
-  /* ===== CAMPOS ===== */
   .field {
     display: grid;
     grid-template-columns: 90px 1fr;
@@ -121,7 +114,6 @@ ul{
     color: var(--text);
   }
 
-  /* Wrapper para input + ícone (senha) */
   .input-wrap {
     position: relative;
   }
@@ -149,7 +141,6 @@ ul{
     box-shadow: 0 0 0 3px rgba(240, 120, 0, 0.12);
   }
 
-  /* Ícone do olho na senha */
   .eye-icon {
     position: absolute;
     right: 14px;
@@ -166,12 +157,10 @@ ul{
     height: 20px;
   }
 
-  /* Padding extra no input de senha para não sobrepor o ícone */
   .input-wrap input {
     padding-right: 44px;
   }
 
-  /* ===== BOTÃO CADASTRAR ===== */
   .btn-cadastrar {
     display: block;
     width: 100%;
@@ -199,8 +188,6 @@ ul{
   .btn-cadastrar:active {
     transform: scale(0.98);
   }
-
-  /* ===== LINK ENTRAR ===== */
   .login-hint {
     text-align: center;
     margin-top: 28px;
@@ -220,7 +207,6 @@ ul{
     text-decoration: underline;
   }
 
-  /* ===== ANIMAÇÃO ===== */
   @keyframes fadeUp {
     from { opacity: 0; transform: translateY(20px); }
     to   { opacity: 1; transform: translateY(0); }
