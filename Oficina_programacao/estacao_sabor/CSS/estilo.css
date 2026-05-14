@@ -159,7 +159,6 @@ ul{
     display: none;
   }
 
-  /* Cada input representa um valor de 1 a 9 */
   #qty1:checked ~ .qty-ctrl .qty-num::after { content: "1"; }
   #qty2:checked ~ .qty-ctrl .qty-num::after { content: "2"; }
   #qty3:checked ~ .qty-ctrl .qty-num::after { content: "3"; }
